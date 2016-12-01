@@ -1,0 +1,46 @@
+/* Extra Small */
+@media (max-width:767px) {
+    .animationPreview h1 { font-size: 3em; letter-spacing: -2px;}
+    select {
+        margin-bottom: 10px;
+        max-width: 232px
+    }
+    .control-btn, .control-btn .row{ transform: skewX(0deg) }
+    .codeBox { margin-bottom: 20px; }
+    .control { transform: translateY(-104px) }
+    .doc {
+      margin: 10px auto 20px auto;
+      padding: 10px
+    }
+    h2, .h2 { font-size: 26px }
+    .label-default {
+        margin: 12px 0px;
+        display: block;
+    }
+    .cssClassList h2 { margin-bottom: 50px; }
+    #easyNotification p { font-size: 14px; padding-right: 10px; }
+}
+/* Medium */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .control-btn, .control-btn .row{ transform: skewX(0deg) }
+    .codeBox { margin-bottom: 20px; }
+    .doc { padding: 10px }
+    #easyNotification p { padding-right: 20px; }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+
+}
+
+@media screen and (max-device-width: 568px) and (orientation: landscape) {
+    .control { transform: translateY(-44px) }
+}
+
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+    .animationPreview {
+        top: 25%;
+        transform: translateY(-25%);
+    }
+}
